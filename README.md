@@ -27,4 +27,4 @@
 
 ## Chemomile: Explainable Multi-Level GNN model for combustion property prediction
 
-Author : 120230404 강범
+Author : 120230404 강범규
