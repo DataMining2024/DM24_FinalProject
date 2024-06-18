@@ -25,6 +25,6 @@
 
 각 팀의 directory 이외에는 어떠한 수정도 하지 마십시오.
 
-## Chemomile: Explainable Multi-Level GNN model for combustion property prediction
+## Chemomile: Explainable Multi-Level GNN Model for Combustion Property Prediction
 
 Author : 120230404 강범규
