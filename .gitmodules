@@ -1,0 +1,3 @@
+[submodule "amazon-kdd-cup-2024-starter-kit"]
+	path = amazon-kdd-cup-2024-starter-kit
+	url = git@gitlab.aicrowd.com:matti_zinke/amazon-kdd-cup-2024-starter-kit.git
