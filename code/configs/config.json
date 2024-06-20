@@ -1,0 +1,24 @@
+{
+    "data": {
+        "monet_dir": "/app/data/monet",
+        "photo_dir": "/app/data/photos"
+    },
+    "training": {
+        "checkpoint_dir": "/app/checkpoints",
+        "sample_dir": "/app/samples",
+        "batch_size": 4,
+        "num_epochs": 100,
+        "learning_rate": 0.0002
+    },
+    "evaluation": {
+        "real_img_dir": "/app/data/monet",
+        "generated_img_dir": "/app/generated_images",
+        "batch_size": 25
+    },
+    "generation": {
+        "input_dir": "/app/data/photos",
+        "output_dir": "/app/generated_images",
+        "model_path": "/app/checkpoints/G_XtoY_100.pth",
+        "direction": "XtoY"
+    }
+}

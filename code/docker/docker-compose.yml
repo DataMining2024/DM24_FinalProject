@@ -1,0 +1,17 @@
+version: '2.3'
+
+services:
+  cyclegan:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    container_name: cyclegan_container
+    volumes:
+      - ..:/app
+    environment:
+      - MODE=train
+      - CONFIG=/app/configs/config.json
+    runtime: nvidia
+    shm_size: '8gb'
+    command: /bin/bash -c "while true; do sleep 1000; done"\
+    
