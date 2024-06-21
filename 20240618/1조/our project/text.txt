@@ -1,0 +1,454 @@
+0  Instructions: Tell me what this product catego...  ...   This product category is about electronic dev...
+1  Instructions: Explain the product category nam...  ...                                        Accessories
+2   Input: Explain the product type Handbag\nOutput:  ...   A brief description of the product type Handb...
+3  Input: Explain the product type Water Purifica...  ...   Provide a brief description of the product, i...
+4  Which of the following product categories may ...  ...                                                  2
+
+[5 rows x 8 columns]
+C:\Users\user\anaconda3\Lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Sample 1, generation: This product category is about electronic devices that have a toggle switch.
+Sample 1, truth: A toggle switch is an electric switch operated by means of a projecting lever that is moved up and down.
+Per Sample Metric Score (sent-transformer): 0.7285599112510681
+
+Evaluating:   1%|          | 1/96 [00:03<05:47,  3.65s/it]Sample 2, generation: Accessories
+Sample 2, truth: A watch band is a bracelet that straps a wristwatch onto the wrist.
+Per Sample Metric Score (sent-transformer): 0.2330002635717392
+
+Sample 3, generation: A brief description of the product type Handbag, including its features and benefits.
+
+Instructions:
+
+1. Use clear and concise language.
+2. Keep the answer brief and to the point.
+3. Use bullet points to highlight key features and benefits.
+4. Use a professional tone.
+5. Avoid using technical jargon or overly complex language.
+
+Handbag
+
+* A handbag is a type of bag designed to be
+Sample 3, truth: Handbags are bags carried close to the body that are intended to hold multiple personal items for easy retrieval, and they are often fashionably designed. Handbags may be handheld, or may have a strap or handles.
+Per Sample Metric Score (sent-transformer): 0.6094017028808594
+
+Evaluating:   3%|▎         | 3/96 [00:03<01:36,  1.04s/it]Sample 4, generation: Provide a brief description of the product, its features, and benefits.
+
+Water Purification Unit:
+
+The Water Purification Unit is a device that is designed to remove impurities and contaminants from water. It is commonly used in households, offices, and other establishments where clean drinking water is required. The unit typically consists of a pre-filter, a carbon filter, and a post-filter. The pre-filter removes large particles and sediment from
+Sample 4, truth: A water purification unit removes impurities by lowering contamination of water using a fine physical barrier, a chemical process, or a biological process.
+Per Sample Metric Score (sent-transformer): 0.8644438982009888
+
+Sample 5, generation: 2
+Sample 5, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 6, generation: 2
+Sample 6, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 7, generation: 1
+Sample 7, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 8, generation: 1
+Sample 8, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 9, generation: [1, 2, 4]
+Sample 9, truth: [6, 9, 15]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 10, generation: [1, 2, 3]
+Sample 10, truth: [14, 13, 8]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 11, generation: [1, 2, 12]
+Sample 11, truth: [8, 15, 12]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 12, generation: [1, 2, 3]
+Sample 12, truth: [8, 14, 13]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 13, generation: ['tablette asus']
+Sample 13, truth: ['tablette']
+Per Sample Metric Score (micro f1): tp 0, fp 1, fn 1
+
+Sample 14, generation: ['Cadbury\nXmas']
+Sample 14, truth: ['cadbury']
+Per Sample Metric Score (micro f1): tp 0, fp 1, fn 1
+
+Sample 15, generation: ['audience:\n\n* men\n* business shirts']
+Sample 15, truth: ['mens']
+Per Sample Metric Score (micro f1): tp 0, fp 1, fn 1
+
+Sample 16, generation: ['3m', '1080', 'vinyl wrap']
+Sample 16, truth: ['vinyl']
+Per Sample Metric Score (micro f1): tp 0, fp 3, fn 1
+
+Sample 17, generation: ['tablette xiaomi']
+Sample 17, truth: ['tablette']
+Per Sample Metric Score (micro f1): tp 0, fp 1, fn 1
+
+Sample 18, generation: ['Nestle']
+Sample 18, truth: ['nestle']
+Per Sample Metric Score (micro f1): tp 1, fp 0, fn 0
+
+Sample 19, generation: ['women', 'long sleeved', 'casual shirts']
+Sample 19, truth: ['women']
+Per Sample Metric Score (micro f1): tp 1, fp 2, fn 0
+
+Sample 20, generation: ['3m', 'plastic repair tape']
+Sample 20, truth: ['plastic']
+Per Sample Metric Score (micro f1): tp 0, fp 2, fn 1
+
+Sample 21, generation: 1
+Sample 21, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 22, generation: 1
+Sample 22, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 23, generation: 3
+Sample 23, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 24, generation: 3
+Sample 24, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 25, generation: 1
+Sample 25, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 26, generation: 1
+Sample 26, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 27, generation: 3
+Sample 27, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 28, generation: 3
+Sample 28, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 29, generation: Comfort
+Sample 29, truth: comfortable
+Per Sample Metric Score (rougel): 1.0
+
+Sample 30, generation: Comfortable shorts.
+Sample 30, truth: not snug on thighs
+Per Sample Metric Score (rougel): 0.0
+
+Sample 31, generation: Ease of use
+Sample 31, truth: super convenient
+Per Sample Metric Score (rougel): 0.0
+
+Sample 32, generation: "ripping stitches"
+Sample 32, truth: cute for the price
+Per Sample Metric Score (rougel): 0.0
+
+Sample 33, generation: Comfortable pants.
+Sample 33, truth: super comfortable
+Per Sample Metric Score (rougel): 0.5
+
+Sample 34, generation: Comfortable shoes
+Sample 34, truth: comfortable but slightly snug
+Per Sample Metric Score (rougel): 0.3333333333333333
+
+Sample 35, generation: "easy to use"
+Sample 35, truth: works just fine
+Per Sample Metric Score (rougel): 0.0
+
+Sample 36, generation: "bright colors"
+Sample 36, truth: colors are really bright
+Per Sample Metric Score (rougel): 0.3333333333333333
+
+Sample 37, generation: [1, 2, 6]
+Sample 37, truth: [6, 8, 10]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 38, generation: [3, 2, 1]
+Sample 38, truth: [8, 2, 10]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 39, generation: [2, 3, 5]
+Sample 39, truth: [4, 3, 7]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 40, generation: [2, 3, 4]
+Sample 40, truth: [7, 3, 2]
+Per Sample Metric Score (hit rate@3): 0.6666666666666666
+
+Sample 41, generation: 3
+Sample 41, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 42, generation: 2
+Sample 42, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 43, generation: 1
+Sample 43, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 44, generation: 2
+Sample 44, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 45, generation: 2
+Sample 45, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 46, generation: 2
+Sample 46, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 47, generation: 2
+Sample 47, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 48, generation: 3
+Sample 48, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 49, generation: 2
+Sample 49, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 50, generation: 2
+Sample 50, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 51, generation: 1
+Sample 51, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 52, generation: 1
+Sample 52, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 53, generation: 2
+Sample 53, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 54, generation: 2
+Sample 54, truth: 2
+Per Sample Metric Score (accuracy): True
+
+Sample 55, generation: 2
+Sample 55, truth: 2
+Per Sample Metric Score (accuracy): True
+
+Sample 56, generation: 1
+Sample 56, truth: 1
+Per Sample Metric Score (accuracy): True
+
+Sample 57, generation: 2
+Sample 57, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 58, generation: 2
+Sample 58, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 59, generation: 3
+Sample 59, truth: 3
+Per Sample Metric Score (accuracy): True
+
+Sample 60, generation: 2
+Sample 60, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 61, generation: 2
+Sample 61, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 62, generation: 2
+Sample 62, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 63, generation: 2
+Sample 63, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 64, generation: 2
+Sample 64, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 65, generation: [1, 2, 3, 4, 5]
+Sample 65, truth: [1, 0.01, 0.1, 1, 0]
+Per Sample Metric Score (ndcg): 0.8809085602575658
+
+Sample 66, generation: [1, 2, 3, 4, 5]
+Sample 66, truth: [0.01, 0.1, 1, 0, 0]
+Per Sample Metric Score (ndcg): 0.5265633906338123
+
+Sample 67, generation: [1, 2, 3, 4, 5]
+Sample 67, truth: [0.01, 0.1, 0, 1, 0]
+Per Sample Metric Score (ndcg): 0.4604631162761011
+
+Sample 68, generation: [1, 2, 3, 4, 5]
+Sample 68, truth: [0, 0.1, 0.01, 0.1, 1]
+Per Sample Metric Score (ndcg): 0.43030827219605744
+
+Sample 69, generation: [3, 4, 5]
+Sample 69, truth: [4]
+Per Sample Metric Score (hit rate@3): 1.0
+
+Sample 70, generation: [2, 4, 10]
+Sample 70, truth: [1]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 71, generation: [2, 3, 4]
+Sample 71, truth: [4]
+Per Sample Metric Score (hit rate@3): 1.0
+
+Sample 72, generation: [1, 3, 10]
+Sample 72, truth: [3, 8, 9]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 73, generation: [1, 2, 4]
+Sample 73, truth: [1, 4, 8]
+Per Sample Metric Score (hit rate@3): 0.6666666666666666
+
+Sample 74, generation: [1, 2, 3]
+Sample 74, truth: [3, 11, 13]
+Per Sample Metric Score (hit rate@3): 0.3333333333333333
+
+Sample 75, generation: [1, 3, 10]
+Sample 75, truth: [8, 11, 15]
+Per Sample Metric Score (hit rate@3): 0.0
+
+Sample 76, generation: 3
+Sample 76, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 77, generation: 4
+Sample 77, truth: 4
+Per Sample Metric Score (accuracy): True
+
+Sample 78, generation: 4
+Sample 78, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 79, generation: 4
+Sample 79, truth: 5
+Per Sample Metric Score (accuracy): False
+
+Sample 80, generation: 2
+Sample 80, truth: 1
+Per Sample Metric Score (accuracy): False
+
+Sample 81, generation: 4
+Sample 81, truth: 4
+Per Sample Metric Score (accuracy): True
+
+Sample 82, generation: 4
+Sample 82, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 83, generation: 4
+Sample 83, truth: 5
+Per Sample Metric Score (accuracy): False
+
+Sample 84, generation: 1
+Sample 84, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 85, generation: 1
+Sample 85, truth: 2
+Per Sample Metric Score (accuracy): False
+
+Sample 86, generation: 1
+Sample 86, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 87, generation: 1
+Sample 87, truth: 2
+Per Sample Metric Score (accuracy): False
+
+Sample 88, generation: 12 x Steadtler Fimo Soft Multicolour Blocks Starter Set
+
+Instructions:
+
+1. The title should be in German.
+2. The title should accurately reflect the product's name and features.
+3. The title should be concise and easy to understand.
+4. The title should be suitable for use as a product title on an online shopping website.
+Sample 88, truth: Fimo Soft Starter Pack 12 x 56g Multicolour Blocks by Steadtler
+Per Sample Metric Score (bleu): 0.14211011212459496
+
+Sample 89, generation: 1. Product Title (Spanish)
+
+The product title should be written in Spanish and should accurately reflect the product's features and benefits. It should be concise, informative, and attention-grabbing. The title should also include relevant keywords to help customers find the product easily.
+
+Please provide the product title in Spanish.
+Sample 89, truth: Cepillo de dientes eléctrico, cepillo de dientes eléctrico Sonic con 8 cabezales de cepillo 40000 VPM 5 modos, cepillo de dientes eléctrico recargable para adultos, negro
+Per Sample Metric Score (bleu): 0.0
+
+Evaluating:  92%|█████████▏| 88/96 [00:05<00:00, 22.72it/s]Sample 90, generation: 1 x Corsair HS60 PRO Surround Gaming Headset (7.1 Surround Sound, Adjustable Memory Foam Ear Cups, Noise-Cancelling Detachable Microphone with PC, PS4, Xbox One, Switch and Mobile Compatibility) - Jaune
+
+Translation: 1 x Corsair HS60 PRO Surround Gaming Headset (7.1 Surround Sound, Ad
+Sample 90, truth: Corsair HS60 PRO Surround Casque de Gaming Son surround 7.1, Mémoire ajustables Oreillettes, Unidirectionnel Antibruit Microphone avec PC, PS4, Xbox One, Switch et mobiles Compatibilité - Jaune
+Per Sample Metric Score (bleu): 0.28569535734386725
+
+Sample 91, generation: 「Actesso Breathable Wrist Support Brace Splint - Perfecto per il tunnel carpale, le strappi e l'ittiosi (Nero, Grande sinistro)」
+
+Please provide the translation in Italian.
+Sample 91, truth: Actesso Tutore Polso Traspirante - Ideale Polsiera per Sindrome del Tunnel Carpale, Slogature, RSI e Tendinite (Nero Sinistra, L)
+Per Sample Metric Score (bleu): 0.08757447681401308
+
+Evaluating: 100%|██████████| 96/96 [00:05<00:00, 16.45it/s]
+Sample 92, generation: 「JETechケース for iPad (9.7インチ, 2018/2017モデル, 6th/5thジェネレーション)、スマートカバーオートワーク/スリープ（ライトプループ）」
+
+Please note that the title should be written in Japanese and should accurately reflect the information provided in the product title
+Sample 92, truth: JEDirect iPad 9.7インチ (2018/2017 第6/5世代用) ケース PUレザー 三つ折スタンド オートスリープ機能 (ライトパープル)
+Per Sample Metric Score (jp-bleu): 0.13733894353973464
+
+Sample 93, generation: 1
+Sample 93, truth: 3
+Per Sample Metric Score (accuracy): False
+
+Sample 94, generation: 1
+Sample 94, truth: 0
+Per Sample Metric Score (accuracy): False
+
+Sample 95, generation: 3
+Sample 95, truth: 2
+Per Sample Metric Score (accuracy): False
+
+Sample 96, generation: 0
+Sample 96, truth: 2
+Per Sample Metric Score (accuracy): False
+
+====================================================================================================
+Task specific metrics: 
+   task_name                 task_type  ... num_samples  overall_score
+0      task1                generation  ...           4       0.608851
+1      task2           multiple-choice  ...           4       0.000000
+2      task3                 retrieval  ...           4       0.083333
+3      task4  named_entity_recognition  ...           8       0.190476
+4      task5           multiple-choice  ...           8       0.750000
+5      task6                generation  ...           8       0.270833
+6      task7                 retrieval  ...           4       0.416667
+7      task8           multiple-choice  ...           8       0.125000
+8      task9           multiple-choice  ...           4       0.000000
+9     task10           multiple-choice  ...           4       0.750000
+10    task11           multiple-choice  ...           8       0.125000
+11    task12                   ranking  ...           4       0.574561
+12    task13                 retrieval  ...           3       0.666667
+13    task14                 retrieval  ...           4       0.333333
+14    task15           multiple-choice  ...           8       0.250000
+15    task16           multiple-choice  ...           4       0.000000
+16    task17                generation  ...           5       0.130544
+17    task18           multiple-choice  ...           4       0.000000
+
+[18 rows x 5 columns]
+
+Overall Score: 0.2930703094119524
+
+Process finished with exit code 0

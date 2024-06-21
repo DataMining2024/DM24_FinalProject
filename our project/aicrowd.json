@@ -1,9 +1,0 @@
-{
-  "challenge_id": "amazon-kdd-cup-24-all-around",
-  "authors": [ "simgyujae",
-    "matti_zinke",
-    "gregorioha"
-  ],
-  "gpu": true,
-  "description": "(optional) description about your custom models"
-}
